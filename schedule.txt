@@ -1,0 +1,4 @@
+IOS Class - 9:00am
+C# Class - 10:00am
+Lunch  - 12:00pm 
+Python Demo - 5:00pm
