@@ -16,12 +16,17 @@ def get_schedule():
   try:
     schedule_file = open('schedule.txt', 'r')
     schedule = schedule_file.read()
-
-    print(schedule)
   except FileNotFoundError as err:
-    return err
+    print(err)
 
-## test functions
-get_emails()
-get_schedule()
+  return schedule
+
+def main():
+  emails = get_emails()
+  schedule = get_schedule()
+
+  print(emails)
+  print(schedule)
+
+main()
 
